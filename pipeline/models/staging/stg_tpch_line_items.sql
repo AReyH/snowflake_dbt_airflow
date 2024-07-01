@@ -1,6 +1,6 @@
 select
 {{
-    dbt_utils.generate([
+    dbt_utils.generate_surrogate_key([
         'l_orderkey',
         'l_linenumber'
     ])
