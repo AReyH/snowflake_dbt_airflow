@@ -1,0 +1,10 @@
+name: snowflake-dbt-airflow
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - dbt-snowflake
+  - dbt-core
